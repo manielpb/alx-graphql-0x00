@@ -1,11 +1,20 @@
-# alx-graphql-0x00
-Project Overview & Summary: The Rick and Morty GraphQL API Explorer
-This project is a multi-phase learning journey designed to build 
-proficiency in GraphQL, from writing basic queries to integrating them 
-into a modern, full-stack React application. The project uses the popular 
-Rick and Morty API as its data source, providing a fun and engaging 
-context for learning.
 
-The work is segmented into four distinct directories (alx-graphql-0x00 to 
-alx-graphql-0x02), each representing a progressive level of complexity and 
-application.
+0. Write a Query to Get a Specific Character by ID
+
+Objective: Learners will write a GraphQL query to retrieve a specific character’s information using their ID.
+
+Use the following Endpoint
+
+Instructions:
+
+Write a GraphQL query using the character(id: ID!) field to fetch the details of a character. Use ids 1, 2, 3, 4
+Include the following fields in your query: id, name, status, species, type, gender
+
+1. Write a Query to Get a List of All Characters
+mandatory
+Objective: Learners will create a GraphQL query to retrieve a paginated list of all characters.
+
+Instructions:
+
+Write a GraphQL query using the characters(page: Int) field to fetch the list of characters. For page 1, 2, 3, 4
+Select the subfields: id, name, status, and image.
