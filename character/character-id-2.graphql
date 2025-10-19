@@ -1,1 +1,10 @@
-#hello
+query {
+  character(id: "2"){
+    id
+		name
+    status
+    species
+    type
+    gender
+  }
+}
